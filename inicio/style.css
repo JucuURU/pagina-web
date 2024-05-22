@@ -1,3 +1,9 @@
+:root{ 
+    --primario: #ccc
+    --blanco: #fff
+    --negro #000
+}
+
 body {
     font-family: sans-serif;
     margin: 0;
@@ -14,7 +20,7 @@ main {
 }
 
 #crear-pregunta {
-    border: 1px solid #ccc;
+    border: 1px solid var(--primario);
     padding: 20px;
     margin-bottom: 20px;
 }
@@ -28,12 +34,12 @@ main {
 #crear-pregunta textarea {
     width: 100%;
     padding: 8px;
-    border: 1px solid #ccc;
+    border: 1px solid var(--primario);
 }
 
 #crear-pregunta button {
     background-color: #4CAF50;
-    color: white;
+    color: var(--blanco);
     padding: 10px 20px;
     border: none;
     cursor: pointer;
