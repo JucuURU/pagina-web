@@ -2,6 +2,10 @@
     --primario: #ccc
     --blanco: #fff
     --negro #000
+
+    --fuenteprincipal: arial
+    --fuentesec: "Roboto Slab", serif
+
 }
 
 .logg {
@@ -10,7 +14,7 @@
 }
 
 body {
-    font-family: sans-serif;
+    font-family: var();
     margin: 0;
     padding: 0;
 }
